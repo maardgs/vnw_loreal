@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Kodchasan', sans-serif;
+    background-color: #EFEEF3;
+    justify-content: center;
+}
+
+
+.menu {
+    padding: 0 2% 0 2%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 24px;
+    width: 1447px;
+    height: 64px;
+    gap: 5px;
+    margin: 1% 0 0 0;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 400px) {
+    .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        gap: 10px;
+        font-size: 20px;
+    }
+
+}
+
+.logo {
+    height: 48px;
+    width: 155.35px;
+}
+
+.capa {
+    padding: 0 1%;
+    align-items: center;
+    width: 1440px;
+    height: 320px;
+    border: 3px;
+    margin: 1% 0 0 0;
+
+}
+
+@media(max-width: 400px) {
+    .capa {
+        display: none;
+    }
+
+.publicidadeParte1 {
+     display: flex;
+     justify-items: center;
+     align-items: center;
+     gap: 20px;
+     padding: 2%;
+     flex-wrap: wrap;
+    }
+
+}
+
+@media (max-width: 400px) {
+    .publicidadeParte1 {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.fotoPublicidade {
+    border-radius: 20px;
+    max-width: 400px; 
+    padding: 5%;
+}
+
+@media (max-width: 400px) {
+    .fotoPublicidade {
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+        margin: 4%;
+    }
+}
+
+.titlePublicidade {
+    font-size: 36px;
+    margin: 10px;
+    font-weight: 400;
+    text-align: center;
+    margin: 4%;
+
+}
+
+@media (max-width: 400px) {
+    .titlePublicidade {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+}
+
+.subPublicidade {
+    padding: 5%;
+    text-align: left;
+        p {
+            width: 100%;
+            font-weight: 573px;
+            font-size: 24px;
+            margin: 0 auto;
+        }
+}
+    @media(max-width: 400px) {
+    .subPublicidade {
+        padding: 0 2%;
+        font-size: 20px;
+        text-align: center;
+
+        p{
+            width: 100%;
+            font-size: 20px;
+            word-wrap: break-word;
+        }
+        
+
+    }
+}
+
+
+.produtos {
+    display: inline-flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 3%;
+
+}
+
+.imgProdutos {
+    max-width: 106px;
+    margin: 0 40px;
+}
+
+@media (max-width: 400px) {
+    .produtos {
+        flex-direction: column;
+
+        p {
+            font-size: 20px;
+            font-weight: 500;
+            text-align: center;
+        }
+    }
+
+}
