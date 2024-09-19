@@ -17,7 +17,7 @@ header {
         justify-content: space-between;
         list-style: none;
         font-size: 24px;
-        width: 1447px;
+        width: 100vw;
         height: 64px;
         gap: 5px;
         margin: 1% 0 0 0;
@@ -38,6 +38,7 @@ header {
     }
 
     .logo {
+        
         height: 48px;
         width: 155.35px;
     }
@@ -45,10 +46,11 @@ header {
     .capa {
         padding: 0 1%;
         align-items: center;
-        width: 1440px;
+        width: 100vw;
         height: 320px;
         border: 3px;
         margin: 1% 0 0 0;
+        object-fit: cover;
 
     }
 
